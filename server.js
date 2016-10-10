@@ -17,11 +17,12 @@ var articleone ={
 };
 
 function createTemplate (Data) {
-var htmlTemplate =`
 var title = data.title;
 var date = data.date;
-var heading = data.heading
-var content = data.content
+var heading = data.heading;
+var content = data.content;
+var htmlTemplate =`
+    
 <html>
    <head>
        <title>
