@@ -6,5 +6,5 @@ element.innerHTML = 'New Value';
 //Move the image
 var img = document.getElementById('vulture');
 img.onclick = function () {
-    img.style.marginLeft = '120px';
+    var interval = setInterval(moveRight, 100);
 };
