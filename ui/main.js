@@ -5,6 +5,6 @@ element.innerHTML = 'New Value';
 
 //Move the image
 var image = document.getElementById('vulture');
-img.onclick = function (){
+img.onclick = function () {
     img.style.marginleft ='120px';
 };
