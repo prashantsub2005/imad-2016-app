@@ -3,12 +3,11 @@ var button = document.getElementById("counter");
 
 button.onclick = function () {
     
-    
-    //Make a request to counter endpoint 
+    //Create request object
     var request = new XMLHttpRequest();
     
     //Capture the response and store it in a variable
-    httpRequest.onreadystatechange = function(){
+    request.onreadystatechange = function(){
         if (request.readyState === XMLHttpRequest.DONE) {
             //take some action
         if (request.status === 200) {
