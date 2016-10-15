@@ -21,7 +21,7 @@ button.onclick = function () {
     };
     //Make the request
     request.open('GET', 'http://prashantsub2005.imad.hasura-app.io/counter', true);
-    request.send('null');
+    request.send(null);
 };
 
 //Submit name
@@ -48,7 +48,7 @@ submit.onclick = function() {
     ul.innerHTML = list;    
         }
             
-        }
+    }
         //Not done yet
     };
     //Make the request
@@ -56,6 +56,6 @@ submit.onclick = function() {
     var name = nameInput.value;
     
     request.open('GET', 'http://prashantsub2005.imad.hasura-app.io/submit-name?name=' +name, true);
-    request.send('null');  
+    request.send(null);  
     
     };
